@@ -1378,3 +1378,89 @@ const u16 sEmptyPal[16] = {0};
 const u16 gBerryCrush_Crusher_Pal[] = INCBIN_U16("graphics/berry_crush/crusher.gbapal");
 const u32 gBerryCrush_Crusher_Gfx[] = INCBIN_U32("graphics/berry_crush/crusher.4bpp.lz");
 const u32 gBerryCrush_TextWindows_Tilemap[] = INCBIN_U32("graphics/berry_crush/text_windows.bin.lz");
+
+const u32 gPokeGearPokeBall_Gfx[] = INCBIN_U32("graphics/pokegear/pokeball.4bpp.lz");
+const u32 gPokeGearMainMenu_Gfx[] = INCBIN_U32("graphics/pokegear/menu.4bpp.lz");
+const u32 gPokeGearMainMenu_Option_Map[] = INCBIN_U32("graphics/pokegear/option.bin");
+const u32 gPokeGearMainMenu_OptionBar_Map[] = INCBIN_U32("graphics/pokegear/option_bar.bin");
+const u32 gPokeGearMainMenu_OptionEnd_Map[] = INCBIN_U32("graphics/pokegear/option_end.bin");
+const u32 gPokeGearMainMenu_Digits_Gfx[] = INCBIN_U32("graphics/pokegear/digits.4bpp.lz");
+const u16 gPokeGearMainMenu_Digits_Pal[] = INCBIN_U16("graphics/pokegear/digits.gbapal");
+const u32 gPokeGearMainMenu_Exit_Gfx[] = INCBIN_U32("graphics/pokegear/exit.4bpp.lz");
+const u32 gPokeGearMainMenu_ClockBar_Gfx[] = INCBIN_U32("graphics/pokegear/clock_bar.4bpp.lz");
+const u32 gPokeGearMainMenu_BarEnd_Gfx[] = INCBIN_U32("graphics/pokegear/bar_1.4bpp.lz");
+const u32 gPokeGearMainMenu_RegionMap_Gfx[] = INCBIN_U32("graphics/pokegear/region_map.4bpp.lz");
+const u16 gPokeGearMainMenu_RegionMap_Pal[] = INCBIN_U16("graphics/pokegear/region_map.gbapal");
+const u32 gPokeGearMainMenu_Phone_Gfx[] = INCBIN_U32("graphics/pokegear/phone.4bpp.lz");
+const u16 gPokeGearMainMenu_Phone_Pal[] = INCBIN_U16("graphics/pokegear/phone.gbapal");
+const u32 gPokeGearMainMenu_Radio_Gfx[] = INCBIN_U32("graphics/pokegear/radio.4bpp.lz");
+const u16 gPokeGearMainMenu_Radio_Pal[] = INCBIN_U16("graphics/pokegear/radio.gbapal");
+const u32 gPokeGearMainMenu_MonStatus_Gfx[] = INCBIN_U32("graphics/pokegear/mon_status.4bpp.lz");
+const u16 gPokeGearMainMenu_MonStatus_Pal[] = INCBIN_U16("graphics/pokegear/mon_status.gbapal");
+const u32 gPokeGearMainMenu_Settings_Gfx[] = INCBIN_U32("graphics/pokegear/settings.4bpp.lz");
+const u16 gPokeGearMainMenu_Settings_Pal[] = INCBIN_U16("graphics/pokegear/settings.gbapal");
+
+const u32 gPokeGearSettings_ThemeTiles_Gfx[] = INCBIN_U32("graphics/pokegear/theme_tiles.4bpp.lz");
+const u32 gPokeGearSettings_ThemeTiles_Map[] = INCBIN_U32("graphics/pokegear/theme_tiles.bin.lz");
+const u16 gPokeGearSettings_ThemeTiles_Pal[] = INCBIN_U16("graphics/pokegear/theme_tiles.gbapal");
+const u32 gPokeGearSettings_ThemeIcons_Gfx[] = INCBIN_U32("graphics/pokegear/theme_icons.4bpp.lz");
+const u16 gPokeGearSettings_ThemeIcons_Pal[] = INCBIN_U16("graphics/pokegear/theme_icons.gbapal");
+
+const u32 gPokeGearStyleSylph_Background_Gfx[] = INCBIN_U32("graphics/pokegear/style_sylph/background.4bpp.lz");
+const u32 gPokeGearStyleSylph_Background_Map[] = INCBIN_U32("graphics/pokegear/style_sylph/background.bin.lz");
+const u32 gPokeGearStyleSylph_Foreground_Gfx[] = INCBIN_U32("graphics/pokegear/style_sylph/foreground.4bpp.lz");
+const u32 gPokeGearStyleSylph_Foreground_Map[] = INCBIN_U32("graphics/pokegear/style_sylph/foreground.bin.lz");
+const u16 gPokeGearStyleSylph_PokeBall_Pal[] = INCBIN_U16("graphics/pokegear/style_sylph/pokeball.gbapal");
+const u16 gPokeGearStyleSylph_Pal[] = INCBIN_U16("graphics/pokegear/style_sylph/palette.gbapal");
+
+const u32 gPokeGearStyleRetro_Background_Gfx[] = INCBIN_U32("graphics/pokegear/style_retro/background.4bpp.lz");
+const u32 gPokeGearStyleRetro_Background_Map[] = INCBIN_U32("graphics/pokegear/style_retro/background.bin.lz");
+const u32 gPokeGearStyleRetro_Foreground_Gfx[] = INCBIN_U32("graphics/pokegear/style_retro/foreground.4bpp.lz");
+const u32 gPokeGearStyleRetro_Foreground_Map[] = INCBIN_U32("graphics/pokegear/style_retro/foreground.bin.lz");
+const u16 gPokeGearStyleRetro_PokeBall_Pal[] = INCBIN_U16("graphics/pokegear/style_retro/pokeball.gbapal");
+const u16 gPokeGearStyleRetro_Pal[] = INCBIN_U16("graphics/pokegear/style_retro/palette.gbapal");
+
+const u32 gPokeGearStyleGold_Background_Gfx[] = INCBIN_U32("graphics/pokegear/style_gold/background.4bpp.lz");
+const u32 gPokeGearStyleGold_Background_Map[] = INCBIN_U32("graphics/pokegear/style_gold/background.bin.lz");
+const u32 gPokeGearStyleGold_Foreground_Gfx[] = INCBIN_U32("graphics/pokegear/style_gold/foreground.4bpp.lz");
+const u32 gPokeGearStyleGold_Foreground_Map[] = INCBIN_U32("graphics/pokegear/style_gold/foreground.bin.lz");
+const u16 gPokeGearStyleGold_Pal[] = INCBIN_U16("graphics/pokegear/style_gold/palette.gbapal");
+
+const u32 gPokeGearStyleSilver_Background_Gfx[] = INCBIN_U32("graphics/pokegear/style_silver/background.4bpp.lz");
+const u32 gPokeGearStyleSilver_Background_Map[] = INCBIN_U32("graphics/pokegear/style_silver/background.bin.lz");
+const u32 gPokeGearStyleSilver_Foreground_Gfx[] = INCBIN_U32("graphics/pokegear/style_silver/foreground.4bpp.lz");
+const u32 gPokeGearStyleSilver_Foreground_Map[] = INCBIN_U32("graphics/pokegear/style_silver/foreground.bin.lz");
+const u16 gPokeGearStyleSilver_Pal[] = INCBIN_U16("graphics/pokegear/style_silver/palette.gbapal");
+
+const u32 gPokeGearStyleCrystal_Background_Gfx[] = INCBIN_U32("graphics/pokegear/style_crystal/background.4bpp.lz");
+const u32 gPokeGearStyleCrystal_Background_Map[] = INCBIN_U32("graphics/pokegear/style_crystal/background.bin.lz");
+const u32 gPokeGearStyleCrystal_Foreground_Gfx[] = INCBIN_U32("graphics/pokegear/style_crystal/foreground.4bpp.lz");
+const u32 gPokeGearStyleCrystal_Foreground_Map[] = INCBIN_U32("graphics/pokegear/style_crystal/foreground.bin.lz");
+const u16 gPokeGearStyleCrystal_Pal[] = INCBIN_U16("graphics/pokegear/style_crystal/palette.gbapal");
+
+const u32 gPokeGearStyleRocket_Background_Gfx[] = INCBIN_U32("graphics/pokegear/style_rocket/background.4bpp.lz");
+const u32 gPokeGearStyleRocket_Background_Map[] = INCBIN_U32("graphics/pokegear/style_rocket/background.bin.lz");
+const u32 gPokeGearStyleRocket_Foreground_Gfx[] = INCBIN_U32("graphics/pokegear/style_rocket/foreground.4bpp.lz");
+const u32 gPokeGearStyleRocket_Foreground_Map[] = INCBIN_U32("graphics/pokegear/style_rocket/foreground.bin.lz");
+const u16 gPokeGearStyleRocket_Pal[] = INCBIN_U16("graphics/pokegear/style_rocket/palette.gbapal");
+
+//const u32 gPokeGearStyleEgg_Background_Gfx[] = INCBIN_U32("graphics/pokegear/style_egg/background.4bpp.lz");
+//const u32 gPokeGearStyleEgg_Background_Map[] = INCBIN_U32("graphics/pokegear/style_egg/background.bin.lz");
+//const u32 gPokeGearStyleEgg_Foreground_Gfx[] = INCBIN_U32("graphics/pokegear/style_egg/foreground.4bpp.lz");
+//const u32 gPokeGearStyleEgg_Foreground_Map[] = INCBIN_U32("graphics/pokegear/style_egg/foreground.bin.lz");
+//const u16 gPokeGearStyleEgg_Pal[] = INCBIN_U16("graphics/pokegear/style_egg/palette.gbapal");
+
+const u32 gPokeGearStyleUnown_Background_Gfx[] = INCBIN_U32("graphics/pokegear/style_unown/background.4bpp.lz");
+const u32 gPokeGearStyleUnown_Background_Map[] = INCBIN_U32("graphics/pokegear/style_unown/background.bin.lz");
+const u32 gPokeGearStyleUnown_Foreground_Gfx[] = INCBIN_U32("graphics/pokegear/style_unown/foreground.4bpp.lz");
+const u32 gPokeGearStyleUnown_Foreground_Map[] = INCBIN_U32("graphics/pokegear/style_unown/foreground.bin.lz");
+const u16 gPokeGearStyleUnown_PokeBall_Pal[] = INCBIN_U16("graphics/pokegear/style_unown/pokeball.gbapal");
+const u16 gPokeGearStyleUnown_Pal[] = INCBIN_U16("graphics/pokegear/style_unown/palette.gbapal");
+
+const u32 gPokeGearStyleGBA_Background_Gfx[] = INCBIN_U32("graphics/pokegear/style_gba/background.4bpp.lz");
+const u32 gPokeGearStyleGBA_Background_Map[] = INCBIN_U32("graphics/pokegear/style_gba/background.bin.lz");
+const u32 gPokeGearStyleGBA_Foreground_Gfx[] = INCBIN_U32("graphics/pokegear/style_gba/foreground.4bpp.lz");
+const u32 gPokeGearStyleGBA_Foreground_Map[] = INCBIN_U32("graphics/pokegear/style_gba/foreground.bin.lz");
+const u32 gPokeGearStyleGBA_Buttons_Gfx[] = INCBIN_U32("graphics/pokegear/style_gba/buttons.4bpp.lz");
+const u16 gPokeGearStyleGBA_Buttons_Pal[] = INCBIN_U16("graphics/pokegear/style_gba/buttons.gbapal");
+const u16 gPokeGearStyleGBA_Pal[] = INCBIN_U16("graphics/pokegear/style_gba/palette.gbapal");

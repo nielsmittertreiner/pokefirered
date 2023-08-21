@@ -16,6 +16,7 @@ const u8 gExpandedPlaceholder_Red[] = _("RED");
 const u8 gExpandedPlaceholder_Green[] = _("GREEN");
 const u8 gText_EggNickname[] = _("EGG");
 const u8 gText_MenuPokemon[] = _("POKéMON");
+const u8 gText_MenuPokeGear[] = _("POKéGEAR");
 const u8 gText_NewGame[] = _("NEW GAME");
 const u8 gText_Continue[] = _("CONTINUE");
 const u8 gTextJP_Options[] = _("せっていを かえる");
@@ -1333,3 +1334,9 @@ const u8 gText_Receive[] = _("RECEIVE");
 const u8 gText_Send[] = _("SEND");
 const u8 gText_Toss[] = _("TOSS");
 const u8 gText_DelAllCancelOk[] = _("DEL. ALL{CLEAR_TO 0x57}CANCEL{CLEAR_TO 0xA4}OK");
+
+const u8 gText_PokeGear_MainMenu_RegionMapDesc[] = _("VIEW THE KANTO REGION MAP.");
+const u8 gText_PokeGear_MainMenu_PhoneDesc[] = _("CONTACT YOUR FRIENDS!");
+const u8 gText_PokeGear_MainMenu_RadioDesc[] = _("LISTEN TO MUSIC OR TALKSHOWS.");
+const u8 gText_PokeGear_MainMenu_MonStatusDesc[] = _("EXAMINE YOUR PARTY'S EV'S AND IV'S.");
+const u8 gText_PokeGear_MainMenu_SettingsDesc[] = _("CHANGE POKéGEAR SETTINGS.");

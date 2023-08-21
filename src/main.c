@@ -10,6 +10,7 @@
 #include "new_menu_helpers.h"
 #include "overworld.h"
 #include "play_time.h"
+#include "time.h"
 #include "intro.h"
 #include "battle_controllers.h"
 #include "scanline_effect.h"
@@ -137,6 +138,7 @@ void AgbMain()
     ResetBgs();
     InitHeap(gHeap, HEAP_SIZE);
     SetDefaultFontsPointer();
+    InGameTimeCounter_Start();
 
     gSoftResetDisabled = FALSE;
     gHelpSystemEnabled = FALSE;
@@ -193,6 +195,7 @@ void AgbMain()
         }
 
         PlayTimeCounter_Update();
+        InGameTimeCounter_Update();
         MapMusicMain();
         WaitForVBlank();
     }

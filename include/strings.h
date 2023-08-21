@@ -88,6 +88,7 @@ extern const u8 gText_PkmnFainted3[];
 extern const u8 gText_Coins[];
 extern const u8 gText_EggNickname[];
 extern const u8 gText_MenuPokemon[];
+extern const u8 gText_MenuPokeGear[];
 
 extern const u8 gOtherText_Use[];
 extern const u8 gOtherText_Toss[];
@@ -1545,5 +1546,11 @@ extern const u8 gText_PokeSum_EggOrigin_Trade[];
 extern const u8 gText_PokeSum_EggOrigin_NicePlace[];
 extern const u8 gText_PokeSum_EggOrigin_Spa[];
 extern const u8 gText_PokeSum_EggOrigin_Trade[];
+
+extern const u8 gText_PokeGear_MainMenu_RegionMapDesc[];
+extern const u8 gText_PokeGear_MainMenu_PhoneDesc[];
+extern const u8 gText_PokeGear_MainMenu_RadioDesc[];
+extern const u8 gText_PokeGear_MainMenu_MonStatusDesc[];
+extern const u8 gText_PokeGear_MainMenu_SettingsDesc[];
 
 #endif //GUARD_STRINGS_H

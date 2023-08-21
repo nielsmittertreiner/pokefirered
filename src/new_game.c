@@ -24,6 +24,7 @@
 #include "union_room_chat.h"
 #include "mystery_gift.h"
 #include "renewable_hidden_items.h"
+#include "time.h"
 #include "trainer_tower.h"
 #include "script.h"
 #include "berry_powder.h"
@@ -149,6 +150,7 @@ void NewGameInitData(void)
     RunScriptImmediately(EventScript_ResetAllMapFlags);
     StringCopy(gSaveBlock1Ptr->rivalName, rivalName);
     ResetTrainerTowerResults();
+    InGameTimeCounter_Set(0, 6, 30);
 }
 
 static void ResetMiniGamesResults(void)

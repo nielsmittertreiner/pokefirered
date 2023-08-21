@@ -4829,4 +4829,91 @@ extern const u16 gPokeStorageInterface_NoDisplayMon_Pal[];
 extern const u16 gDexScreen_TopMenuIconPals_AtoZ[];
 extern const u32 gDexScreen_TopMenuIconTiles_AtoZ[];
 
+// pokegear
+extern const u32 gPokeGearPokeBall_Gfx[];
+extern const u32 gPokeGearMainMenu_Gfx[];
+extern const u32 gPokeGearMainMenu_Option_Map[];
+extern const u32 gPokeGearMainMenu_OptionBar_Map[];
+extern const u32 gPokeGearMainMenu_OptionEnd_Map[];
+extern const u32 gPokeGearMainMenu_Digits_Gfx[];
+extern const u16 gPokeGearMainMenu_Digits_Pal[];
+extern const u32 gPokeGearMainMenu_Exit_Gfx[];
+extern const u32 gPokeGearMainMenu_ClockBar_Gfx[];
+extern const u32 gPokeGearMainMenu_BarEnd_Gfx[];
+extern const u32 gPokeGearMainMenu_RegionMap_Gfx[];
+extern const u16 gPokeGearMainMenu_RegionMap_Pal[];
+extern const u32 gPokeGearMainMenu_Phone_Gfx[];
+extern const u16 gPokeGearMainMenu_Phone_Pal[];
+extern const u32 gPokeGearMainMenu_Radio_Gfx[];
+extern const u16 gPokeGearMainMenu_Radio_Pal[];
+extern const u32 gPokeGearMainMenu_MonStatus_Gfx[];
+extern const u16 gPokeGearMainMenu_MonStatus_Pal[];
+extern const u32 gPokeGearMainMenu_Settings_Gfx[];
+extern const u16 gPokeGearMainMenu_Settings_Pal[];
+
+extern const u32 gPokeGearSettings_ThemeTiles_Gfx[];
+extern const u32 gPokeGearSettings_ThemeTiles_Map[];
+extern const u16 gPokeGearSettings_ThemeTiles_Pal[];
+extern const u32 gPokeGearSettings_ThemeIcons_Gfx[];
+extern const u16 gPokeGearSettings_ThemeIcons_Pal[];
+
+extern const u32 gPokeGearStyleSylph_Background_Gfx[];
+extern const u32 gPokeGearStyleSylph_Background_Map[];
+extern const u32 gPokeGearStyleSylph_Foreground_Gfx[];
+extern const u32 gPokeGearStyleSylph_Foreground_Map[];
+extern const u16 gPokeGearStyleSylph_PokeBall_Pal[];
+extern const u16 gPokeGearStyleSylph_Pal[];
+
+extern const u32 gPokeGearStyleRetro_Background_Gfx[];
+extern const u32 gPokeGearStyleRetro_Background_Map[];
+extern const u32 gPokeGearStyleRetro_Foreground_Gfx[];
+extern const u32 gPokeGearStyleRetro_Foreground_Map[];
+extern const u16 gPokeGearStyleRetro_PokeBall_Pal[];
+extern const u16 gPokeGearStyleRetro_Pal[];
+
+extern const u32 gPokeGearStyleGold_Background_Gfx[];
+extern const u32 gPokeGearStyleGold_Background_Map[];
+extern const u32 gPokeGearStyleGold_Foreground_Gfx[];
+extern const u32 gPokeGearStyleGold_Foreground_Map[];
+extern const u16 gPokeGearStyleGold_Pal[];
+
+extern const u32 gPokeGearStyleSilver_Background_Gfx[];
+extern const u32 gPokeGearStyleSilver_Background_Map[];
+extern const u32 gPokeGearStyleSilver_Foreground_Gfx[];
+extern const u32 gPokeGearStyleSilver_Foreground_Map[];
+extern const u16 gPokeGearStyleSilver_Pal[];
+
+extern const u32 gPokeGearStyleCrystal_Background_Gfx[];
+extern const u32 gPokeGearStyleCrystal_Background_Map[];
+extern const u32 gPokeGearStyleCrystal_Foreground_Gfx[];
+extern const u32 gPokeGearStyleCrystal_Foreground_Map[];
+extern const u16 gPokeGearStyleCrystal_Pal[];
+
+extern const u32 gPokeGearStyleRocket_Background_Gfx[];
+extern const u32 gPokeGearStyleRocket_Background_Map[];
+extern const u32 gPokeGearStyleRocket_Foreground_Gfx[];
+extern const u32 gPokeGearStyleRocket_Foreground_Map[];
+extern const u16 gPokeGearStyleRocket_Pal[];
+
+//extern const u32 gPokeGearStyleEgg_Background_Gfx[];
+//extern const u32 gPokeGearStyleEgg_Background_Map[];
+//extern const u32 gPokeGearStyleEgg_Foreground_Gfx[];
+//extern const u32 gPokeGearStyleEgg_Foreground_Map[];
+//extern const u16 gPokeGearStyleEgg_Pal[];
+
+extern const u32 gPokeGearStyleUnown_Background_Gfx[];
+extern const u32 gPokeGearStyleUnown_Background_Map[];
+extern const u32 gPokeGearStyleUnown_Foreground_Gfx[];
+extern const u32 gPokeGearStyleUnown_Foreground_Map[];
+extern const u16 gPokeGearStyleUnown_PokeBall_Pal[];
+extern const u16 gPokeGearStyleUnown_Pal[];
+
+extern const u32 gPokeGearStyleGBA_Background_Gfx[];
+extern const u32 gPokeGearStyleGBA_Background_Map[];
+extern const u32 gPokeGearStyleGBA_Foreground_Gfx[];
+extern const u32 gPokeGearStyleGBA_Foreground_Map[];
+extern const u32 gPokeGearStyleGBA_Buttons_Gfx[];
+extern const u16 gPokeGearStyleGBA_Buttons_Pal[];
+extern const u16 gPokeGearStyleGBA_Pal[];
+
 #endif //GUARD_GRAPHICS_H

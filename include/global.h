@@ -179,6 +179,15 @@ struct Time
     /*0x04*/ s8 seconds;
 };
 
+struct InGameTime
+{
+    /*0x00*/ u8 dayOfWeek;
+    /*0x01*/ u8 hours;
+    /*0x02*/ u8 minutes;
+    /*0x03*/ u8 seconds;
+    /*0x04*/ u8 vblanks;
+};
+
 struct Pokedex
 {
     /*0x00*/ u8 order;
@@ -345,7 +354,10 @@ struct SaveBlock2
     /*0xB10*/ struct BerryPickingResults berryPick;
     /*0xB20*/ u8 filler_B20[0x400];
     /*0xF20*/ u32 encryptionKey;
-}; // size: 0xF24
+    /*0xF21*/ u8 pokeGearStyle;
+    /*0xF22*/ bool8 twentyFourHourClock;
+    /*0xF23*/ struct InGameTime inGameTime;
+}; // size: 0xF28
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;
 

@@ -32,6 +32,7 @@ MAPPREVIEWGFXDIR := graphics/map_preview
 NAMINGGFXDIR := graphics/naming_screen
 WALLPAPERGFXDIR := graphics/pokemon_storage/wallpapers
 JPCONTESTGFXDIR := graphics/contest/japanese
+PKGEARGFXDIR := graphics/pokegear
 
 types := normal fight flying poison ground rock bug ghost steel mystery fire water grass electric psychic ice dragon dark
 contest_types := cool beauty cute smart tough
@@ -689,3 +690,6 @@ $(WALLPAPERGFXDIR)/tiles/tiles.4bpp: %.4bpp: %.png
 
 $(WALLPAPERGFXDIR)/volcano/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 57 -Wnum_tiles
+
+$(PKGEARGFXDIR)/clock_bar.4bpp: $(PKGEARGFXDIR)/bar_0.4bpp $(PKGEARGFXDIR)/bar_1.4bpp
+	@cat $^ >$@
